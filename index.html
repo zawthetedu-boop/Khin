@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Her Special Day ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         BACKGROUND EFFECTS
+    ================================= -->
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div id="stars"></div>
+    <div id="particles"></div>
+
+    <!-- =================================
+         🎵 AUDIO ထည့်ရန်
+         
+         assets/music.mp3
+         ================================= -->
+
+    <audio id="bgMusic" loop>
+        <source src="hb.aac" type="audio/mpeg">
+    </audio>
+
+
+    <!-- MUSIC BUTTON -->
+
+    <button id="musicButton" class="music-button">
+        ♫
+    </button>
+
+
+
+    <!-- =================================
+         PAGE 1
+         COUNTDOWN
+    ================================= -->
+
+    <section class="page active" id="page1">
+
+        <div class="small-title">
+            ✦ SOMETHING SPECIAL IS COMING ✦
+        </div>
+
+        <h1 class="main-title">
+            Her Special Day
+            <span>is Coming</span>
+        </h1>
+
+        <p class="subtitle">
+            A little surprise made specially for you ♡
+        </p>
+
+
+        <!-- COUNTDOWN -->
+
+        <div class="countdown">
+
+            <div class="time">
+                <div id="days">00</div>
+                <span>DAYS</span>
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="time">
+                <div id="hours">00</div>
+                <span>HOURS</span>
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="time">
+                <div id="minutes">00</div>
+                <span>MINUTES</span>
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="time">
+                <div id="seconds">00</div>
+                <span>SECONDS</span>
+            </div>
+
+        </div>
+
+
+        <p class="waiting">
+            ✦ Counting every second until your special day ✦
+        </p>
+
+
+        <button class="main-button" id="startButton">
+            OPEN YOUR SURPRISE
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 2
+         GIFT ANIMATION
+    ================================= -->
+
+    <section class="page gift-page" id="page2">
+
+        <div class="small-title">
+            ✦ A LITTLE SURPRISE FOR YOU ✦
+        </div>
+
+
+        <div class="gift-container" id="gift">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-box">
+
+                <div class="gift-ribbon"></div>
+
+            </div>
+
+            <div class="gift-bow bow-left"></div>
+            <div class="gift-bow bow-right"></div>
+
+        </div>
+
+
+        <p class="gift-text">
+            Something special is waiting for you...
+        </p>
+
+
+        <button class="main-button hidden-button" id="openGift">
+            OPEN ♡
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 3
+         HAPPY BIRTHDAY
+    ================================= -->
+
+    <section class="page" id="page3">
+
+        <div class="birthday-heart">
+            ♡
+        </div>
+
+        <div class="small-title">
+            ✦ TODAY IS YOUR DAY ✦
+        </div>
+
+        <h2 class="birthday-title">
+            Happy Birthday
+        </h2>
+
+        <p class="birthday-name">
+            My Special Person ♡
+        </p>
+
+
+        <div class="message-box">
+
+            <p id="typingText"></p>
+
+        </div>
+
+
+        <button class="main-button next-button">
+            OUR MEMORIES →
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 4
+         PHOTO MEMORIES
+    ================================= -->
+
+    <section class="page memories-page" id="page4">
+
+        <div class="small-title">
+            ✦ OUR LITTLE MEMORIES ✦
+        </div>
+
+        <h2 class="section-title">
+            Beautiful
+            <span>Moments</span>
+        </h2>
+
+
+        <div class="photo-wall">
+
+
+            <!-- 🖼️ PHOTO 1
+                 assets/girl1.jpg
+            -->
+
+            <div class="photo-card card1">
+
+                <img src="k.jpg" alt="Memory 1">
+
+                <p>one beautiful moment ♡</p>
+
+            </div>
+
+
+
+            <!-- 🖼️ PHOTO 2
+                 assets/girl2.jpg
+            -->
+
+            <div class="photo-card card2">
+
+                <img src="h.jpg" alt="Memory 2">
+
+                <p>your smile</p>
+
+            </div>
+
+
+
+            <!-- 🖼️ PHOTO 3
+                 assets/girl3.jpg
+            -->
+
+            <div class="photo-card card3">
+
+                <img src="i.png" alt="Memory 3">
+
+                <p>with you ♡</p>
+
+            </div>
+
+
+
+            <!-- 🖼️ PHOTO 4
+                 assets/girl4.jpg
+            -->
+
+            <div class="photo-card card4">
+
+                <img src="n.jpg" alt="Memory 4">
+
+                <p>a little memory</p>
+
+            </div>
+
+
+
+            <!-- 🖼️ PHOTO 5
+                 assets/girl5.jpg
+            -->
+
+            <div class="photo-card card5">
+
+                <img src="t.jpg" alt="Memory 5">
+
+                <p>still special</p>
+
+            </div>
+
+
+
+            <!-- 🖼️ PHOTO 6
+                 assets/girl6.jpg
+            -->
+
+            <div class="photo-card card6">
+
+                <img src="m.jpg" alt="Memory 6">
+
+                <p>forever ♡</p>
+
+            </div>
+
+        </div>
+
+
+        <button class="main-button next-button">
+            A LETTER FOR YOU →
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 5
+         LETTER
+    ================================= -->
+
+    <section class="page" id="page5">
+
+        <div class="small-title">
+            ✦ FROM MY HEART ✦
+        </div>
+
+        <h2 class="section-title">
+            A Letter
+            <span>For You</span>
+        </h2>
+
+
+        <div class="letter-card">
+
+            <p>
+                Happy Birthday, You. ♡
+
+I wish I could be there today,
+standing beside you, smiling with you,
+and wishing you a happy birthday in person.
+
+But things are different now.
+
+There are so many things I still want to say,
+so many memories I still hold onto,
+and so many moments when I quietly miss you.
+
+Sometimes, I wonder if you ever think of me too.
+If you remember the little conversations,
+the silly moments, the smiles,
+and all the time we once shared.
+
+I miss your voice.
+I miss your smile.
+I miss the way your presence could make
+an ordinary day feel a little more beautiful.
+
+But today isn't about my sadness.
+
+Today is about you.
+
+So, wherever life takes you,
+I hope you find happiness.
+I hope you are surrounded by people
+who make you feel loved and safe.
+
+And even if I can no longer be
+a part of your everyday life,
+there will always be a quiet place in my heart
+where our memories remain.
+
+Happy Birthday.
+
+I hope this year is gentle with you.
+I hope you smile a little more.
+I hope your dreams come true.
+
+And somewhere, quietly,
+there will always be someone wishing
+the very best for you.
+
+I miss you more than I know how to say.
+But today, I just hope you're happy. ♡
+
+            </p>
+            <p class="signature">
+                With all my heart ♡
+            </p>
+
+        </div>
+
+
+        <button class="main-button next-button">
+            ONE MORE SURPRISE →
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 6
+         VIDEO
+    ================================= -->
+
+    <section class="page video-page" id="page6">
+
+        <div class="small-title">
+            ✦ A SPECIAL MOMENT FOR YOU ✦
+        </div>
+
+        <h2 class="section-title">
+            A Moment
+            <span>For You</span>
+        </h2>
+
+        <p class="subtitle">
+            A memory I want you to keep ♡
+        </p>
+
+
+        <!-- =================================
+             🎥 VIDEO ထည့်ရန်
+             
+             assets/memory.mp4
+             ================================= -->
+
+        <div class="video-container">
+
+            <video
+                id="memoryVideo"
+                controls
+                playsinline
+                preload="metadata">
+
+                <source
+                    src="/memo.mp4"
+                    type="video/mp4">
+
+            </video>
+
+        </div>
+
+
+        <button class="main-button next-button">
+            FINAL MESSAGE →
+        </button>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 7
+         FINAL
+    ================================= -->
+
+    <section class="page final-page" id="page7">
+
+        <div class="final-heart">
+            ♥
+        </div>
+
+        <div class="small-title">
+            ✦ FOR YOU ✦
+        </div>
+
+        <h2 class="final-title">
+            Happy Birthday
+            <span>Beautiful</span>
+        </h2>
+
+
+        <div class="final-message">
+
+            <p>
+                May your life always be filled with
+                beautiful moments.
+            </p>
+
+            <p>
+                May you always have reasons to smile.
+            </p>
+
+            <p>
+                And wherever life takes you...
+            </p>
+
+            <p class="highlight">
+                I hope you always stay happy. ♡
+            </p>
+
+        </div>
+
+
+        <div class="final-sparkles">
+            ✦　♡　✦
+        </div>
+
+
+        <button class="main-button" id="restart">
+            ↻ WATCH AGAIN
+        </button>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
